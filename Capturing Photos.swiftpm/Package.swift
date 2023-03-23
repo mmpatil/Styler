@@ -34,9 +34,15 @@ let package = Package(
             ]
         )
     ],
+    dependencies: [
+        .package(url: "https://github.com/supabase/supabase-swift.git", from: "0.2.1"), // Use a specific version
+    ],
     targets: [
         .executableTarget(
             name: "App",
+            dependencies: [
+                .product(name: "Supabase", package: "supabase-swift"),
+            ],
             path: "App"
         )
     ]

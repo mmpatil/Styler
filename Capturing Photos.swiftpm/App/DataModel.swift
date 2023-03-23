@@ -69,6 +69,7 @@ final class DataModel: ObservableObject {
         Task {
             do {
                 try await photoCollection.addImage(imageData)
+                await connection()
                 logger.debug("Added image data to photo collection.")
             } catch let error {
                 logger.error("Failed to add image to photo collection: \(error.localizedDescription)")

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "19CC5BC8-5FFB-4328-9A50-F5DBB6FB5CAE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "140A8501-B7BE-4FD8-9C88-8F20C891479A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App/storage/SupaDB.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "connection()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "452167EE-9F81-4D79-ACF3-90462D6298E0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App/storage/SupaDB.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "connection()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "452167EE-9F81-4D79-ACF3-90462D6298E0 - ab0d582c89dc1fc8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Capturing_Photos.connection() async -&gt; ()"
+                  moduleName = "Capturing Photos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manalipatil/git/Styler/Capturing%20Photos.swiftpm/App/storage/SupaDB.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "452167EE-9F81-4D79-ACF3-90462D6298E0 - ab0d582c89dc1fc8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Capturing_Photos.connection() async -&gt; ()"
+                  moduleName = "Capturing Photos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manalipatil/git/Styler/Capturing%20Photos.swiftpm/App/storage/SupaDB.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

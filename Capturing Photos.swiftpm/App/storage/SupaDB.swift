@@ -40,11 +40,11 @@ func uploadImage(_ image: Data) async {
     // Step 1: Encode the image data into a base64 string.
     let base64String = image.base64EncodedString()
     
-    let supabaseUrl = "url"
+    let supabaseUrl = "https://dynwuzbasunmfxqhadub.supabase.co"
     guard let url = URL(string: supabaseUrl) else {
         fatalError("Invalid Supabase URL")
     }
-     let supaKey = "key"
+     let supaKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR5bnd1emJhc3VubWZ4cWhhZHViIiwicm9sZSI6ImFub24iLCJpYXQiOjE2Nzk0NTQ1NjUsImV4cCI6MTk5NTAzMDU2NX0.pYTITVTsKBevKQBL01ZXYMJC-FI2yU1KyYNfIVDm3gg"
 
     let supabaseClient = SupabaseClient(supabaseURL: url, supabaseKey: supaKey)
     let newPhoto = MyPhoto(filename: "my-image.jpg", image: base64String, type: "top")

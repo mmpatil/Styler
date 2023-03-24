@@ -69,14 +69,10 @@ final class DataModel: ObservableObject {
         Task {
             do {
                 try await photoCollection.addImage(imageData)
-//                imageDataFiltered =
-               
+
                 removeBackground(from: imageData) { result in
                     switch result {
                     case .success(let data):
-//                        await uploadImage(imageData)
-                        
-                        // Call the synchronous function with an asynchronous function
                         let task = Task { () -> Void in
                             await uploadImage(data)
                         }
@@ -84,7 +80,6 @@ final class DataModel: ObservableObject {
                         print("Failed to remove background: \(error.localizedDescription)")
                     }
                 }
-               
                 logger.debug("Added image data to photo collection.")
             } catch let error {
                 logger.error("Failed to add image to photo collection: \(error.localizedDescription)")

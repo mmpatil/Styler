@@ -70,7 +70,7 @@ final class DataModel: ObservableObject {
             do {
                 try await photoCollection.addImage(imageData)
 
-                removeBackground(from: imageData) { result in
+                removeBackgroundData(from: imageData) { result in
                     switch result {
                     case .success(let data):
                         let task = Task { () -> Void in
